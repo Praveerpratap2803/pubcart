@@ -5,6 +5,9 @@ import React from "react"
 //import Product from "../product/product";
 import ProductList from "../productlist/productlist";
 import "bootstrap/dist/css/bootstrap.min.css"
+import Team from "../team/team"
+import Login from '../login/login';
+import Cart from '../cart/cart';
 export default class App extends React.Component{
 
   // productList = [
@@ -24,7 +27,12 @@ export default class App extends React.Component{
 
     // )
     return(
-      <ProductList/>
+      <>
+        {/* <ProductList/>
+        <Team/>
+        <Login/> */}
+        <Cart/>
+      </>
     )
   }
 }
